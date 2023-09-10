@@ -3,13 +3,13 @@ class utils:
         pass
 
     def reversed(self, num):
-        if type(num) == int or type(num) == float:
+        if type(num) == int:
             return int(str(num)[::-1])
         else:
             return None
     
     def formatter(self, num):
-        if type(num) == int or type(num) == float:
+        if type(num) == int:
             return bin(num), hex(num)
         else:
             return None, None
